@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="video.css">
+</head>
+<body>
+	<section>
+		<video id="slider" autoplay muted loop>
+			<source src="video.mp4" type="video/mp4">
+		</video>
+		<ul class="navi">
+			<li onclick="videoUrl('video.mp4')"><img src="photo_2020-12-12_22-00-47.jpg"></li>
+			<li onclick="videoUrl('Pexels Videos 1779202.mp4')"><img src="photo_2020-12-12_22-02-12.jpg"></li>
+			<li onclick="videoUrl('ShellShocked - NFS Payback [GMV].mp4')"><img src="photo_2020-12-13_18-45-59.jpg"></li>
+		</ul>
+	</section>
+
+	<script type="text/javascript">
+		function videoUrl(hmmmm){
+		document.getElementById("slider").src = hmmmm;
+	}
+	</script>
+
+</body>
+</html>
